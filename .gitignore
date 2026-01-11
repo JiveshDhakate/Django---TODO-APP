@@ -1,0 +1,58 @@
+# ================================
+# 🐍 Python & Virtual Environment
+# ================================
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================================
+# 🧪 Django
+# ================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# ================================
+# 🔐 Environment Variables
+# ================================
+.env
+.env.*
+
+# ================================
+# 🧰 IDE / OS Files
+# ================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ================================
+# 🗃️ Build & Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# 📦 Coverage & Testing
+# ================================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# ================================
+# 📝 Logs
+# ================================
+*.log
